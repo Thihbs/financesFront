@@ -1,0 +1,31 @@
+/* bar-chart.component.css */
+.chart__container{
+    margin-top: 5em;
+    display: grid;
+    grid-template-areas: 'chart1 chart2';
+    background-color: #201B2C;
+    justify-items: center;
+}
+.chart-container1 {
+    text-align: center;
+    width: 50em;   
+    box-shadow: 3px 3px 30px #00FF89;
+}
+
+.chart-container2 {
+    text-align: center;
+    width: 50em;
+    box-shadow: 3px 3px 30px #00FF89;
+}
+
+.h1__class{
+    margin-top: 1em;
+    color: #00FF89;
+    margin-bottom: 1.5em;
+}
+
+.h1__cont2{
+    color: #00FF89;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}

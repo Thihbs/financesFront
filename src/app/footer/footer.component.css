@@ -1,0 +1,15 @@
+/* Define o rodapé para ser fixo no final da viewport */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00FF89;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer p {
+    margin: 0;
+  }

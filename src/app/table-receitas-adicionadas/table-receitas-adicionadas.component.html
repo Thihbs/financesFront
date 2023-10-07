@@ -1,0 +1,23 @@
+<div class="h1__container">
+  <h1>Transações Recentes</h1>
+</div>
+<div class="recent-transactions">
+  <table>
+    <thead class="th__container">
+      <tr>
+        <th>Transação</th>
+        <th>Categoria</th>
+        <th>Data</th>
+        <th>Valor</th>
+      </tr>
+    </thead>
+    <tbody class="tb__container">
+      <tr *ngFor='let dado of dados; let i = index'>
+        <td>{{ dado.categoria }}</td>
+        <td>{{ dado.tipo }}</td>
+        <td>{{ dado.data }}</td>
+        <td>{{ dado.valor }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

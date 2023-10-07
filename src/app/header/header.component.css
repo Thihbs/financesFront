@@ -1,0 +1,43 @@
+/* Centraliza verticalmente os itens no cabeçalho */
+header {
+  display: flex;
+  height: 70px;
+  padding: 10px 20px;
+  background-color: #201B2C;
+  color: black;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Estilo do logotipo */
+  .logo > span {
+    font-size: 2em;
+    color: #00FF89;
+    font-weight: bold;
+    box-shadow: 1px 1px 6px #00FF89;
+    border-color: #00FF89;
+  }
+  
+  
+  /* Estilo da navegação (lista de links) */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espaçamento entre os itens da navegação */
+  }
+  
+  nav ul li {
+    font-size: 1.3em; /* Tamanho da fonte dos links (ajuste conforme necessário) */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #00FF89; /* Cor dos links (pode ajustar) */
+  }
+  
+  /* Estilo dos links quando o mouse passa por cima (hover) */
+  nav ul li a:hover {
+    color: #76FFC6;
+  }

@@ -1,0 +1,20 @@
+.button__container{
+    margin-top: 10.5em;
+    width: 15em;
+    height: 3em;
+    border: 1px solid #00FF89;
+    background-color: #00FF89;
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button__container_logout{
+    width: 5em;
+    height: 3em;
+    border: 1px solid #00FF89;
+    background-color: transparent;
+    color: #00FF89;
+    border-radius: 3px;
+    cursor: pointer;
+}

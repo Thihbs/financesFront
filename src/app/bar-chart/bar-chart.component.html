@@ -1,0 +1,10 @@
+<div class="chart__container">
+<div class="chart-container1">
+    <h1 class="h1__class">Gráfico Mensal</h1>
+    <canvas baseChart [datasets]="chartData" [labels]="chartLabels" [options]="chartOptions" [type]="chartType"></canvas>
+</div>
+<div class="chart-container2">
+    <h1 class="h1__cont2">Gráfico Semanal</h1>
+    <canvas baseChart [datasets]="chartData2" [labels]="chartLabels" [options]="chartOptions" [type]="'line'"></canvas>
+</div>
+</div>
