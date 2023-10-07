@@ -1,5 +1,5 @@
 export const environment = {
     domain: '',
     clientId: '',
-    baseUrl: ''
+    baseUrl: 'https://finances-backend-qdts.onrender.com'
 };
