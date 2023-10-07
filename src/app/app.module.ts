@@ -10,7 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AuthModule } from '@auth0/auth0-angular';
 import { ButtonLoginAuth0Component } from './login/button-login-auth0/button-login-auth0.component';
 import { LoginComponent } from './login/login.component';
-import { environment } from 'src/environments/environment.development';
+import { environment } from 'src/environments/environment.prod';
 
 @NgModule({
     declarations: [
@@ -29,10 +29,10 @@ import { environment } from 'src/environments/environment.development';
         CadastroModule,
         HttpClientModule,
         AuthModule.forRoot({
-            domain: environment.domain,
-            clientId: environment.clientId,
+            domain: environment.auth0.domain,
+            clientId: environment.auth0.clientId,
             authorizationParams: {
-              redirect_uri: window.location.origin,
+              redirect_uri: environment.auth0.redirectUri,
             }
           }),
     ]
